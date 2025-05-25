@@ -7,8 +7,7 @@ O sistema gerencia motos, leitores e registros de passagem em pontos monitorados
 
 ## Equipe do Projeto
 
-| **Angello Turano** | **Cauã Sanches** | **Leonardo Bianchi** |
-| **RM: 556511** | **RM:558317** | **RM:558576** |
+| **Angello Turano** **RM: 556511** | **Cauã Sanches** **RM:558317** | **Leonardo Bianchi** **RM:558576** |
 
 ---
 
