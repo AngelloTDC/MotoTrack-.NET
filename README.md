@@ -1,4 +1,4 @@
-# MotoTrack 🏍️📡
+# MotoTrack
 
 **MotoTrack** é uma API RESTful desenvolvida com **ASP.NET Core 8.0** que permite o rastreamento de motocicletas por meio de leitores **RFID**.  
 O sistema gerencia motos, leitores e registros de passagem em pontos monitorados, utilizando **Entity Framework Core** com **banco de dados Oracle**.
@@ -11,7 +11,7 @@ O sistema gerencia motos, leitores e registros de passagem em pontos monitorados
 
 ---
 
-## 📦 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - ASP.NET Core 8.0
 - Entity Framework Core
@@ -21,7 +21,7 @@ O sistema gerencia motos, leitores e registros de passagem em pontos monitorados
 
 ---
 
-## 📐 Estrutura do Projeto
+## Estrutura do Projeto
 
 - `Moto`: representa uma motocicleta (placa, modelo, status, etc.)
 - `LeitorRFID`: representa um leitor fixado em um ponto de controle
@@ -29,7 +29,7 @@ O sistema gerencia motos, leitores e registros de passagem em pontos monitorados
 
 ---
 
-## 📁 Endpoints Disponíveis
+## Endpoints Disponíveis
 
 ### 🔧 Motos
 
@@ -41,7 +41,7 @@ O sistema gerencia motos, leitores e registros de passagem em pontos monitorados
 | PUT    | `/api/motos/{id}` | Atualiza uma moto existente |
 | DELETE | `/api/motos/{id}` | Remove uma moto do sistema  |
 
-### 📍 Leitores RFID
+### Leitores RFID
 
 | Método | Rota                 | Descrição                    |
 | ------ | -------------------- | ---------------------------- |
@@ -51,7 +51,7 @@ O sistema gerencia motos, leitores e registros de passagem em pontos monitorados
 | PUT    | `/api/leitores/{id}` | Atualiza um leitor existente |
 | DELETE | `/api/leitores/{id}` | Remove um leitor do sistema  |
 
-### 📝 Registros de Leitura
+### Registros de Leitura
 
 | Método | Rota                  | Descrição                      |
 | ------ | --------------------- | ------------------------------ |
@@ -62,7 +62,7 @@ O sistema gerencia motos, leitores e registros de passagem em pontos monitorados
 
 ---
 
-## 🗃️ Modelos de Dados
+## Modelos de Dados
 
 ### Moto
 
@@ -98,7 +98,7 @@ O sistema gerencia motos, leitores e registros de passagem em pontos monitorados
 
 ---
 
-## 🔄 Configuração do Banco Oracle
+## Configuração do Banco Oracle
 
 Adicione a string de conexão no arquivo `appsettings.json`:
 
@@ -110,11 +110,11 @@ Adicione a string de conexão no arquivo `appsettings.json`:
 }
 ```
 
-> 💡 Certifique-se de ter o **Oracle Data Provider** (`Oracle.EntityFrameworkCore`) instalado no projeto.
+> Certifique-se de ter o **Oracle Data Provider** (`Oracle.EntityFrameworkCore`) instalado no projeto.
 
 ---
 
-## ⚙️ Pré-requisitos
+## Pré-requisitos
 
 Antes de executar o projeto, certifique-se de ter instalado:
 
@@ -125,7 +125,7 @@ Antes de executar o projeto, certifique-se de ter instalado:
 
 ---
 
-## ▶️ Como Rodar o Projeto
+## Como Rodar o Projeto
 
 1. Clone o repositório:
 
@@ -167,7 +167,7 @@ Antes de executar o projeto, certifique-se de ter instalado:
 
 ---
 
-## ✅ Funcionalidades Finais
+## Funcionalidades Finais
 
 - CRUD de motos, leitores e registros
 - Associação entre motos e leitores
@@ -176,6 +176,6 @@ Antes de executar o projeto, certifique-se de ter instalado:
 
 ---
 
-Desenvolvido para a disciplina **Advanced Business Development with .NET** 🧠
+Desenvolvido para a disciplina **Advanced Business Development with .NET**
 
 Link para o repositório: https://github.com/AngelloTDC/MotoTrack-.NET
