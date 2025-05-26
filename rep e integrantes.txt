@@ -1,0 +1,8 @@
+rep: https://github.com/AngelloTDC/MotoTrack-.NET
+
+video pitch: https://youtu.be/3k1S9CXILw8
+
+integrantes: 
+Angello Turano RM: 556511
+Cauã Sanches RM:558317
+Leonardo Bianchi RM:558576
